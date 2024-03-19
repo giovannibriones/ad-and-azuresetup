@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img alt="1" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/13675a50-b000-4889-954c-9acb68e54626">
+
 </p>
 
 <h1>Building the Foundation: Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs</h1>
@@ -51,7 +52,8 @@
 
 
 <p>
-<img width="776" alt="VM image" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/f072cd7b-b547-4006-9ddb-ae6ba39c497e">
+<img width="776" alt="2" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/79cd61be-f939-4778-ad89-0ddc4420f66a">
+
 </p>
 <p>
 <p><strong>.</strong></p>
@@ -63,7 +65,8 @@
 <br />
 
 <p>
-<img width="736" alt="DC-vm" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/323e78b9-4e86-46e3-b021-6ac529ccb600">
+<img width="736" alt="3" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/6fa6b849-b25e-4ad2-8f4a-5b44f69b4142">
+
 </p>
 <p>
 </p>
@@ -75,7 +78,8 @@
 <h3>&#9313; Set the Domain Controller's Private IP to static </h3>
 
 -  Once the VM has been deployed, proceed to the VM overview page and select "Networking" on the left side. 
-<img width="692" alt="networking" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/a35e1aad-57e1-4c1c-9e4e-aefa4fcf31ea">
+<img width="692" alt="4" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/1e30e594-c8f1-4e28-b99a-bfd414cdffae">
+
 <br>
 <br>
 <br>
@@ -85,7 +89,8 @@
 <br>
 
 <p>
-<img width="518" alt="static" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/8629a747-9809-4329-859f-2d38896ec484">
+<img width="518" alt="5" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/dbc4ae8d-4955-4160-b5d8-d302ea3470b3">
+
 </p>
 
 <br />
@@ -96,7 +101,7 @@
 <h3>&#9314; Create the client VM </h3>
 
 - Once again create a new VM and we'll name it Client-01. We'll select Windows 10 as the image and make sure to select at least 2 vcpus and 16 GiB memory.
-<img width="717" alt="VM 2 name " src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/a3005b2a-cc0a-49f6-8b9e-c6a594c2aba9">
+<img width="717" alt="6" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/9ff4e593-7a96-4077-903b-c50a93942854">
 
 <br>
 <br>
@@ -107,7 +112,7 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<img width="731" alt="VM2 vnet" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/d591d9b0-ce68-4e74-a466-cdd34886c74b">\
+<img width="731" alt="7" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/f658dc3f-8f9a-4cf4-9638-727266a49a60">\
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
@@ -125,14 +130,16 @@
 
 - First login to the Client-01 using it's public ip address and remote desktop
 
-<img width="993" alt="client 1 public ip" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/c12a5300-fd26-4ae7-b15b-b4fee053bece">
+<img width="993" alt="8" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/34448518-8b9e-41cc-a201-e24345e7a7c7">
+
 
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<img width="297" alt="remote desktop first login" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/97467245-a6b9-4922-a668-71fdf6f77989">
+<img width="297" alt="9" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/29c0fa87-edef-40e5-b747-9556536f155c">
+
 
 <br>
 <br>
@@ -145,7 +152,8 @@
 <p><strong> Find DC-01's private ip address in the Azure Portal and copy it. Proceed to Client-01 and open the terminal and type "ping -t (DC-01 private ip address)" </strong></p>
 
 
-<img width="668" alt="perpetual ping" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/d83a1cbf-2619-4382-bc3c-7025ed246119">
+<img width="668" alt="10" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/09cc95ec-0028-47c3-8e98-2b3da2b098e1">
+
 
 
 <br>
@@ -159,9 +167,9 @@
 
 <p><strong> Login to DC-01 using remote desktop and open windows defender firewall and select advanced settings. Sort by protocol and find both ICMP echo requests and enable both these rules by right clicking and selecting enable rule.</strong></p>
 
-<br>
+<be>
 
-<img width="668" alt="firewall" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/818f7ebe-2ec3-4bd5-b59a-2bc55c24a567">
+<img alt="11" width="668" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/5959256f-5c62-4650-9f09-e0d4d1df0aba">
 
 <br>
 
@@ -171,9 +179,9 @@
 
 <p><strong> Now once the traffic has been enabled, you can check back with Client-01 and notice that the ping is now successful.</strong> </p>
 
-<img width="334" alt="ping 2" src="https://github.com/kirkgacias/ad-and-azuresetup/assets/158519921/ede5ce46-2d9d-49c6-82d7-5afc9796294b">
+<img width="334" alt="12" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/6f64e28f-9e05-420e-8132-f6cdeea09d4a">
 
-<h2> Final Thoughts </h2>
+<h2> In Conclusion </h2>
 
 <p> We've completed the foundational setup for our Azure and Active Directory project series. By configuring two virtual machines, we've laid the groundwork for implementing the subsequent set of projects. In this project, we focused on establishing a Domain Controller and a Client machine, enabling remote access, and briefly examining network traffic between them. Moving forward, this foundation will help implement more advanced configurations and practical scenarios in Azure and Active Directory. </p>
 
