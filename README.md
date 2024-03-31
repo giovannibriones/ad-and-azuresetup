@@ -152,8 +152,8 @@
 <p><strong> Locate DC-01's private ip address in the Azure Portal and copy it. Continue to Client-01 and open the terminal and type "ping -t (DC-01 private ip address)" </strong></p>
 
 
-<img width="668" alt="10" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/09cc95ec-0028-47c3-8e98-2b3da2b098e1">
 
+<img width="668" alt="10" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/e4de8dd3-5a10-4328-86dc-d088b42677ec">
 
 
 <br>
@@ -179,7 +179,9 @@
 
 <p><strong> After the traffic has been enabled, check back with Client-01 and notice that the ping is now successful.</strong> </p>
 
-<img width="334" alt="12" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/6f64e28f-9e05-420e-8132-f6cdeea09d4a">
+
+<img width="334" alt="12" src="https://github.com/giovannibriones/ad-and-azuresetup/assets/163789590/08141747-4780-4479-a7a7-45e487c3d020">
+
 
 <h2> In Conclusion </h2>
 
